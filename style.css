@@ -1,24 +1,21 @@
-.green_jumbotron .img_row{
+.green_jumbotron .img_row, .white_portfolio .text_row, .green_about .text_row, .white_contact .text_row{
     padding-top: 80px;
 } 
-
-.white_portfolio .text_row{
-    padding-top: 80px;
-}
-
-.green_about .text_row{
-    padding-top: 80px;
-}
-
-
-.white_contact .text_row{
-    padding-top: 80px;
-}
 
 form >*{
     padding-top: 20px;
 }
 
-.dark_contacts h3{
+.white_portfolio{
+    text-align: center;
+}
+
+.dark_contacts h3, footer{
     margin-top: 50px;
+}
+
+@media screen and (max-width: 767px){
+    .dark_contacts address, .dark_contacts p{
+        text-align: center;
+    }
 }
