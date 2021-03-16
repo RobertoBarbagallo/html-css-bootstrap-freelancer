@@ -1,3 +1,7 @@
-.img_row img{
+.green_jumbotron .img_row{
     padding-top: 80px;
 } 
+
+.white_portfolio .text_row{
+    padding-top: 80px;
+}
