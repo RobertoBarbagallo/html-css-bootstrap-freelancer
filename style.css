@@ -9,3 +9,12 @@
 .green_about .text_row{
     padding-top: 80px;
 }
+
+
+.white_contact .text_row{
+    padding-top: 80px;
+}
+
+form >*{
+    padding-top: 20px;
+}
