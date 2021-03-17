@@ -9,7 +9,7 @@
     font-weight: bold;
 }
 
-.custom_navbar li a:hover{
+.custom_navbar li a:hover, .custom_navbar a:hover{
     background-color: #3A546D;
 }
 
@@ -32,7 +32,7 @@ section{
 }
 
 .img_container img{
-    width: 200px;
+    max-width: 200px;
 }
 
 
@@ -54,15 +54,22 @@ section{
     padding-top: 20px;
 }
 
+.green ul li:hover{
+    text-decoration: underline;
+}
+
 .portfolio_row img{
     margin: 15px 0;
+}
+
+.portfolio_row img:hover{
+    opacity: 0.7;
 }
 
 .green p{
     color: white;
     margin: 20px 0;
 }
-
 
 form{
     padding-top: 20px;
@@ -96,10 +103,18 @@ footer{
     border-radius: 50%;
 }
 
+.social_container i:hover{
+    background-color: #18BC9B;
+}
+
 footer .darker{
     background-color: #2B3E50;
     height: 50px;
     margin: 0;
+}
+
+.text-left span a{
+    color: #18BC9B;
 }
 
 /* Media Query */
@@ -110,6 +125,7 @@ footer .darker{
     footer.white_text h4{
         padding-top: 20px;
     }
+
 } 
 
 
@@ -132,11 +148,23 @@ footer .darker{
     border: 1px solid white;
 }
 
+.custom_btn:hover{
+    background-color: white;
+    color: #18BC9B;
+}
+
 .green_custom_btn{
     background-color: #18BC9B;
     color: white;
 }
 
+.green_custom_btn:hover{
+    background-color: white;
+    color: #18BC9B;
+    border: 1px solid #18BC9B;
+}
+
+
 a:hover{
-    color: inherit;
+    color: #18BC9B;;
 }
