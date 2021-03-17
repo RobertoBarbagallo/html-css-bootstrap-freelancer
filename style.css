@@ -39,7 +39,7 @@ form >*{
 }
 
 section{
-    padding-top: 60px;
+    padding: 40px 0;
 }
 
 .green{
@@ -70,6 +70,17 @@ section{
 
 .portfolio_row img{
     margin: 15px 0;
+}
+
+.green p{
+    color: white;
+    margin: 20px 0;
+}
+
+.custom_btn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
 }
 
 
