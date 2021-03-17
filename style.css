@@ -1,4 +1,4 @@
-.green_jumbotron .img_row, .white_portfolio .text_row, .green_about .text_row, .white_contact .text_row{
+/* .green_jumbotron .img_row, .white_portfolio .text_row, .green_about .text_row, .white_contact .text_row{
     padding-top: 80px;
 } 
 
@@ -18,4 +18,22 @@ form >*{
     .dark_contacts address, .dark_contacts p{
         text-align: center;
     }
+} */
+
+.custom_navbar{
+    background-color: #2B3E50;
+}
+
+.custom_navbar a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.custom_navbar li a:hover{
+    background-color: #3A546D;
+}
+
+.custom_navbar .icon-bar{
+    background-color: white;
 }
