@@ -68,6 +68,10 @@ section{
     vertical-align: middle;
 }
 
+.portfolio_row img{
+    margin: 15px 0;
+}
+
 
 
 
@@ -75,4 +79,12 @@ section{
 
 .white_text{
     color: white;
+}
+
+.black_text{
+    color: black;
+}
+
+.black_div{
+    background-color: black;
 }
