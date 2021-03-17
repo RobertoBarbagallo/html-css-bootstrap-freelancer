@@ -2,6 +2,7 @@
 .custom_navbar{
     background-color: #2B3E50;
     margin-bottom: 0;
+    border-radius: 0;
 }
 
 .custom_navbar a{
@@ -33,20 +34,6 @@ section{
 
 .img_container img{
     max-width: 200px;
-}
-
-
-.orizzontal_div{
-    height: 2px;
-    background-color: white;
-    width: 15%;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.fa{
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .green ul li{
@@ -135,6 +122,19 @@ footer .darker{
 
 .black_text{
     color: black;
+}
+
+.orizzontal_div{
+    height: 2px;
+    background-color: white;
+    width: 15%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fa{
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .black_div{
