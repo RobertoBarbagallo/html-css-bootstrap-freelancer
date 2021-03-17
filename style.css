@@ -1,31 +1,10 @@
-/* .green_jumbotron .img_row, .white_portfolio .text_row, .green_about .text_row, .white_contact .text_row{
-    padding-top: 80px;
-} 
-
-form >*{
-    padding-top: 20px;
-}
-
-.white_portfolio{
-    text-align: center;
-}
-
-.dark_contacts h3, footer{
-    margin-top: 50px;
-}
-
-@media screen and (max-width: 767px){
-    .dark_contacts address, .dark_contacts p{
-        text-align: center;
-    }
-} */
-
+/* Navbar */
 .custom_navbar{
     background-color: #2B3E50;
     margin-bottom: 0;
 }
 
-.custom_navbar a {
+.custom_navbar a{
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -38,6 +17,8 @@ form >*{
     background-color: white;
 }
 
+
+/* Main */
 section{
     padding: 40px 0;
 }
@@ -68,6 +49,11 @@ section{
     vertical-align: middle;
 }
 
+.green ul li{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
 .portfolio_row img{
     margin: 15px 0;
 }
@@ -77,17 +63,57 @@ section{
     margin: 20px 0;
 }
 
-.custom_btn{
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
+
+form{
+    padding-top: 20px;
+}
+
+.form-group input, .form-group textarea{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    box-shadow: none;
 }
 
 
+.form-group input::placeholder, .form-group textarea::placeholder{
+    color: black;
+}
+
+/* Footer */
+footer{
+    background-color: #3A546D;
+}
+
+.social_container i{
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+footer .darker{
+    background-color: #2B3E50;
+    height: 50px;
+    margin: 0;
+}
+
+/* Media Query */
+@media screen and (max-width: 767px){
+    footer.white_text address, footer.white_text p{
+        text-align: center;
+    }
+    footer.white_text h4{
+        padding-top: 20px;
+    }
+} 
 
 
-/* utility */
-
+/* Utilities */
 .white_text{
     color: white;
 }
@@ -98,4 +124,19 @@ section{
 
 .black_div{
     background-color: black;
+}
+
+.custom_btn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.green_custom_btn{
+    background-color: #18BC9B;
+    color: white;
+}
+
+a:hover{
+    color: inherit;
 }
