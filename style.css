@@ -82,7 +82,6 @@ form{
     box-shadow: none;
 }
 
-
 .form-group input::placeholder, .form-group textarea::placeholder{
     color: black;
 }
