@@ -22,10 +22,10 @@ form >*{
 
 .custom_navbar{
     background-color: #2B3E50;
+    margin-bottom: 0;
 }
 
 .custom_navbar a {
-    color: white;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -36,4 +36,43 @@ form >*{
 
 .custom_navbar .icon-bar{
     background-color: white;
+}
+
+section{
+    padding-top: 60px;
+}
+
+.green{
+    background-color: #18BC9B;
+}
+
+.img_container{
+    padding-bottom: 20px;
+}
+
+.img_container img{
+    width: 200px;
+}
+
+
+.orizzontal_div{
+    height: 2px;
+    background-color: white;
+    width: 15%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fa{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+/* utility */
+
+.white_text{
+    color: white;
 }
